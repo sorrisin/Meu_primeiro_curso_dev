@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    background-color: darkolivegreen;
+}
+header {
+    
+    padding: 32px;
+    border-bottom: 10px saddlebrown solid;
+    background-color:wheat;
+}
+#box{
+    text-align: center;
+    padding: 32px;
+}
+
+header div {
+    text-align: center;
+}
+header div a{
+    color:darkgreen;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration:dashed;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+}
+header div a:hover{
+color: saddlebrown;
+transition: color 700ms;
+}
