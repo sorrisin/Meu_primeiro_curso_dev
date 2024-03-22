@@ -19,6 +19,31 @@ header {
     padding: 32px;
 }
 
+#box img{
+    border-radius: 50%;
+    border: 5px solid wheat;
+    margin-bottom: 32px;
+}
+
+#box h1{
+    font-size: 42px;
+    line-height: 52px;
+    line-weight: bold;
+}
+#box h2{
+    font-size: 24px;
+    line-height: 34px;
+    line-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+#box p{
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+
 header div {
     text-align: center;
 }
